@@ -19,22 +19,23 @@ body {
 	background-color: black;
 	display: table;
 	width: 100%;
-	height: 100%;
+ 	height: 100%;
 	color: white;
 	font-family: 'AllerRegular';
 	font-size: 1em;
 	line-height: 1.2em;
+
 }
 
 #page {
 	display: table-cell;
 	vertical-align: middle;
-	
 }
 
 #box {
   position: relative;
 	width: 100%;
+	min-width: 968px;
 }
 
 .image {
@@ -96,3 +97,22 @@ body {
 #links a.linkedin {	background-image: url(images/linkedin.png); }
 #links a.googleplus {	background-image: url(images/googleplus.png); }
 #links a.email {	background-image: url(images/email.png); }
+
+
+
+
+@media (max-width:480px) {
+	body { width: 300%; }
+}
+
+@media (min-width:1200px) {
+	#experience { font-size: 2.5em; }
+	#about { max-width: 800px; font-size: 1.1em; }
+	#about strong { font-size: 3.5em; }
+}
+
+@media (min-width:1600px) {
+	#experience { font-size: 3em; }
+	#about { max-width: 800px; font-size: 1.3em; }
+	#about strong { font-size: 3.5em; line-height: 1.3em }
+}
