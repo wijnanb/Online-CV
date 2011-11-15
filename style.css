@@ -102,7 +102,7 @@ body {
 
 
 @media (max-width:480px) {
-	body { width: 300%; }
+	body { width: 300% }
 }
 
 @media (min-width:1200px) {
